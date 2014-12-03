@@ -1,0 +1,12 @@
+<section>
+
+  <mynavbar></mynavbar>
+
+  My Chats!!!
+  Chat: <textarea ng-model="newchat"></textarea>
+  <button ng-click="sendChat()">Voice Your Opinion</button>
+  <p ng-repeat="chat in chats">
+    <span>Message {{chat.chatMessage}}</span>
+  </p>
+
+</section>
